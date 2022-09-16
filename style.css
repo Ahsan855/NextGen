@@ -1,0 +1,247 @@
+.bg-main {
+  background: #04040c;
+}
+
+.headers {
+  font-size: 70px;
+  font-weight: 600;
+  transform: translate(0, 0);
+  margin: 0;
+  background: url(./img/nenad-novakovic-L2QB-rG5NM0-unsplash.png) 50% 50%;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.nav-links {
+  color: white;
+  font-weight: 500;
+  font-size: 19px;
+  text-decoration: none;
+  margin-right: 56px;
+}
+.nav-links:hover {
+  color: #bc61f3;
+  border-bottom: 4px solid #3a3653;
+  border-radius: 50%;
+}
+.defalt-btn {
+  padding: 14px 40px;
+  gap: 10px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #f0f0f0;
+  /* Gradient */
+  border: none;
+  background: linear-gradient(180deg, #5c43f6 0%, #bc61f3 100%);
+}
+.create-btn {
+  padding: 14px 40px;
+  margin-left: 24px;
+  font-size: 19px;
+  font-weight: 500;
+  background-color: transparent;
+  color: #f0f0f0;
+  border-image: linear-gradient(#5c43f6, #bc61f3) 30;
+  border-width: 2px;
+  border-style: solid;
+
+  /* Gradient */
+}
+.image-coin {
+  margin-top: 145px;
+  margin-bottom: 190px;
+  margin-right: 40.12px;
+  width: 193.92px;
+  height: 35.28px;
+}
+
+.cards {
+  width: 400px;
+  height: 556px;
+  background: rgba(134, 155, 223, 0.14);
+  border: 2px solid rgba(83, 84, 136, 0.4);
+  border-radius: 300px;
+}
+.view-btn {
+  font-weight: 500;
+  font-size: 19px;
+  text-decoration: none;
+  color: #bc61f3;
+}
+.footer-links {
+  text-decoration: none;
+  font-size: 19px;
+  color: white;
+  font-weight: 400;
+}
+.titles {
+  font-weight: bold;
+  margin-bottom: 24px;
+  font-size: 23px;
+}
+.footer-para {
+  font-weight: 400;
+  font-size: 19px;
+  width: 400px;
+  height: auto;
+  line-height: 183%;
+  margin: 30px 0;
+}
+.subs-para {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 183%;
+  width: 680px;
+  height: auto;
+}
+.sec-img {
+  margin-top: -200px;
+}
+.footers {
+  margin-top: 281px;
+}
+.subscribe-btn {
+  padding: 19px 40px;
+  gap: 10px;
+
+  position: absolute;
+  width: 176px;
+  height: 61px;
+  left: 490px;
+  top: 14px;
+  color: white;
+  background: linear-gradient(180deg, #5c43f6 0%, #bc61f3 100%);
+}
+.form-controls {
+  position: absolute;
+  width: 680px;
+  height: 89px;
+  left: 0px;
+  top: 0px;
+  background: rgba(134, 155, 223, 0.14);
+  border: 2px solid rgba(83, 84, 136, 0.4);
+  border-radius: 10px;
+}
+.subscribe {
+  margin-bottom: 125px;
+}
+.card-creator {
+  background: rgba(134, 155, 223, 0.14);
+  border: 2px solid rgba(83, 84, 136, 0.4);
+  border-radius: 10px;
+  padding-bottom: 40px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  margin: 0 10px;
+  margin-bottom: 127px;
+}
+.view-btns {
+  padding: 19px 40px;
+  position: absolute;
+  left: 70px;
+  border-radius: 10px;
+  bottom: -44px;
+  color: white;
+  background: linear-gradient(180deg, #5c43f6 0%, #bc61f3 100%);
+}
+
+.card-conter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 10px;
+  width: 340px;
+  height: 178px;
+  position: absolute;
+  left: 40px;
+  top: 420px;
+  z-index: 1;
+  background: #f2f2f2;
+  border-radius: 24px;
+}
+.defalt-btns {
+  font-size: 19px;
+  font-weight: 500;
+  color: #f0f0f0;
+  width: 290px;
+  height: 53px;
+  /* Gradient */
+  background: linear-gradient(180deg, #5c43f6 0%, #bc61f3 100%);
+  border-radius: 10px;
+}
+.atten {
+  margin-top: 150px;
+}
+.margin-btn {
+  margin-top: 100px;
+  margin-left: 550px;
+}
+@media (max-width: 576px) {
+  .headers {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+  .footer-para {
+    width: 300px;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .subs-para {
+    width: 300px;
+  }
+  .form-controls {
+    position: relative;
+    width: 300px;
+    height: 49px;
+  }
+
+  .subscribe-btn {
+    padding: 6px 20px;
+    width: 115px;
+    height: 40px;
+    left: 180px;
+    top: 7px;
+  }
+  .subscribe {
+    padding-bottom: 50px;
+  }
+  .margin-btn {
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+  .image-coin {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 88.12px;
+    width: 201.92px;
+    height: 39.28px;
+  }
+  .defalt-btn {
+    padding: 14px 22px;
+    font-size: 15px;
+  }
+  .create-btn {
+    padding: 14px 22px;
+    font-size: 15px;
+  }
+  .card-conter {
+    position: absolute;
+    top: 491px;
+    left: 14px;
+  }
+
+  .cards {
+    width: 330px;
+    height: 430px;
+  }
+  .design-res {
+    margin-top: 180px;
+  }
+  .w-50 {
+    width: 90% !important;
+  }
+}
